@@ -1,6 +1,7 @@
 # AI--Assisted-API-Test-Generation-Platform
 
-# AI-Driven CI/CD QA Automation Pipeline
+# Automated Requirement, Acceptance Criteria & Test Case Generation Pipeline with Real-Time Results Dashboard
+
 
 An AI-powered QA automation platform that converts raw Business Requirement Documents (BRDs) into structured Acceptance Criteria and executable Pytest scripts using **LangChain, LangGraph, and local LLMs (Qwen via Ollama)**. The generated test code is automatically committed to a GitHub repository, enabling a fully automated QA-ready CI/CD workflow.
 
