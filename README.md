@@ -32,7 +32,7 @@ BRD → Requirement Extraction → Acceptance Criteria Generation → Pytest Gen
 
 ## Architecture
 
-   React UI
+    React UI
                         │
                         ▼
                    FastAPI API
@@ -60,7 +60,8 @@ Test Case Agent
         ▼
 Test Script Agent
         │
-        ▼Git Push Agent
+        ▼
+   Git Push Agent
 
 
 
