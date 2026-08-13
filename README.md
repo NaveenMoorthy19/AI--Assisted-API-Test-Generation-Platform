@@ -223,7 +223,7 @@ Create a \`.env\` file from \`.env.example\`.
 \`\`\`env
 OLLAMA_BASE_URL=http://localhost:3000
 OLLAMA_MODEL=qwen2.5:3b
-GITHUB_TOKEN = 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
+GITHUB_TOKEN = ghp_i0IUZ1DEZswx3Y6n7sYIklTHro7GHw13Y9ZFr
 GITHUB_REPO = Test_case_automation
 GIT_REPO_OWNER=NaveenMoorthy19
 GITHUB_BRANCH=main
