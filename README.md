@@ -32,35 +32,36 @@ BRD → Requirement Extraction → Acceptance Criteria Generation → Pytest Gen
 
 ## Architecture
 
-                        │
-                        ▼
-                   FastAPI API
-                        │
-                        ▼
-                  Upload BRD PDF
-                        │
-                        ▼
-                PDF Text Extraction
-                        │
-                        ▼
-          LangGraph Orchestrator
-                        │
-        ┌───────────────┼────────────────┐
-        ▼               ▼                ▼
-Requirement      Ticket Agent     Validation
-    Agent
-        │
-        ▼
+   React UI
+                        │
+                        ▼
+                   FastAPI API
+                        │
+                        ▼
+                  Upload BRD PDF
+                        │
+                        ▼
+                PDF Text Extraction
+                        │
+                        ▼
+          LangGraph Orchestrator
+                        │
+        ┌───────────────┼────────────────┐
+        ▼               ▼                ▼
+Requirement      Ticket Agent     Validation
+    Agent
+        │
+        ▼
 Acceptance Criteria Agent
-        │
-        ▼
+        │
+        ▼
 Test Case Agent
-        │
-        ▼
+        │
+        ▼
 Test Script Agent
-        │
-        ▼
-Git Push Agent
+        │
+        ▼Git Push Agent
+
 
 
 ### Tech Stack
