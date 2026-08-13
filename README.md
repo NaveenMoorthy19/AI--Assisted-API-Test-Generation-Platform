@@ -76,7 +76,7 @@ Test Script Agent
 | LLM | Ollama (Qwen 3B / 7B / 14B) |
 | Testing | Pytest |
 | CI/CD | GitHub Actions |
-| Deployment | Docker |
+| Deployment | Github Repo |
 
 ---
 
