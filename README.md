@@ -2,14 +2,23 @@
 
 # Automated Requirement, Acceptance Criteria & Test Case Generation Pipeline with Real-Time Results Dashboard
 
+An AI-driven API test generation platform that automates the transformation of raw Business Requirement Documents (BRDs) into structured requirements, Acceptance Criteria, and executable Pytest test scripts.
 
-An AI-powered QA automation platform that converts raw Business Requirement Documents (BRDs) into structured Acceptance Criteria and executable Pytest scripts using **LangChain, LangGraph, and local LLMs (Qwen via Ollama)**. The generated test code is automatically committed to a GitHub repository, enabling a fully automated QA-ready CI/CD workflow.
+The platform uses LangChain and LangGraph to orchestrate the AI workflow and supports local Large Language Model (LLM) inference through Ollama. Generated test scripts can be automatically committed to a GitHub repository, enabling integration with existing CI/CD workflows.
 
 ---
 
 ## Overview
 
-This project automates the traditional QA test creation process.
+Traditional API testing requires QA engineers to manually analyze requirements, define Acceptance Criteria, write test scenarios, and implement automated test scripts.
+
+This platform aims to automate that process.
+
+The system takes a raw BRD or requirement document as input and processes it through an AI-powered workflow:
+
+BRD → Requirement Extraction → Acceptance Criteria → Pytest Generation → GitHub Commit → CI/CD
+
+This reduces manual effort and provides a repeatable approach for generating API automation tests.
 
 ### Workflow
 
