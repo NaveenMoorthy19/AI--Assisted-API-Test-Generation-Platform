@@ -31,8 +31,7 @@ BRD → Requirement Extraction → Acceptance Criteria Generation → Pytest Gen
 ---
 
 ## Architecture
-
-                   React UI
+   React UI
                         │
                         ▼
                    FastAPI API
@@ -44,7 +43,7 @@ BRD → Requirement Extraction → Acceptance Criteria Generation → Pytest Gen
                 PDF Text Extraction
                         │
                         ▼
-              LangGraph Orchestrator
+          LangGraph Orchestrator
                         │
         ┌───────────────┼────────────────┐
         ▼               ▼                ▼
@@ -250,7 +249,7 @@ See -- https://docs.google.com/document/d/1GxjRb2vOZc_RjPjQHOmEpBD4wLuSOtZr9UhFT
 
 **Naveen Moorthy**
 
-AI / GenAI / QA Automation Engineer
+AI / Agentic AI / GEN AI DEVOLOPER
 
 ---
 
